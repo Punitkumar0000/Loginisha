@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "../Javascript"
+		},
+		{
+			"path": "../Major"
+		},
+		{
+			"path": "../Html Practice"
+		},
+		{
+			"path": "../New projects/Maze Solver"
+		},
+		{
+			"path": "../Login"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Login",
+		"java.dependency.syncWithFolderExplorer": false,
+		"java.dependency.packagePresentation": "hierarchical"
+	}
+}

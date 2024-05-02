@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f0e5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+    font-size: 35px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.country-code {
+    border: 1px solid #b7b7b7;
+    padding: 15px;
+    border-right: none;
+    color: #000000;
+    background-color: #ffffff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+
+input[type="tel"] {
+    height: 30px;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #b7b7b7;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.continue-btn {
+    width: calc(100% - 6px);
+    padding: 10px;
+    height: 5vh;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5722;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.continue-btn:hover{
+    background-color: #136af6;
+    color: #ddd;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #9e9b9b;
+}
+
+.or-text {
+    margin: 0 10px;
+    color: #8f8e8e;
+}
+
+.google-btn{
+    width: calc(100% - 6px);
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #666;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.google-btn:hover, .alternate-btn:hover {
+    background-color: #136af6;
+    color: #fff;
+}
+
+.terms {
+    font-size: 16px;
+    color: #404040;
+    margin-top: 40px;
+}
+
+.terms a {
+    color: #ff5722;
+    text-decoration: none;
+}
+.dropdown {
+    margin-top: 5px; 
+    margin-bottom: 15px;/* Adjust as needed */
+    cursor: pointer;
+  }
+  .dropdown span{
+    color: #8f8e8e;
+    text-decoration: underline;
+  }
+  
+
+  .down-arrow {
+    width: 15px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+    margin-top: 5px; /* Adjust as needed */
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  .dropdown.active + .btn-container {
+    display: block;
+  }
